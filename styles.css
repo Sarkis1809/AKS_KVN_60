@@ -1,0 +1,231 @@
+:root {
+    --primary-bgncolor: #2f303a;
+    --secondary-bgncolor: #f5f4fa;
+    --specialization-overlay: rgba(47, 48, 58, 0.8);
+  
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196f3;
+    --button-hover-color: #188ce8;
+    --secondary-accent-text-color: #ffffff;
+    --logo-text-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --icon-text-color: #afb1b8;
+  
+    --primary-font: 'Roboto', sans-serif;
+  }
+  
+  body {
+    color: var(--primary-text-color);
+    font-family: var(--primary-font);
+  
+    padding-top: 10px;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  li{
+      text-decoration: none;
+      list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  .navigation-list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .navigation-item{
+    padding: 35px 0;
+  }
+  h1,
+  h2,
+  h3{
+      text-align: center;
+  }
+  .navigation-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation-link:focus,
+  .navigation-link:hover{
+    color: var(--button-hover-color);
+    font-size: 22px; 
+  }
+  .header{
+      width: 100%;
+      height: 100px;
+      background-color: var(--secondary-bgncolor);
+  }
+  .container{
+      padding: 0 15px;
+      text-align: justify;
+  }
+  p{
+      font-size: 22px;
+  }
+  /* ------------ABOUT-US----------- */
+  .about-us{
+      margin-top: 30px;
+      padding: 10px 15px;
+  }
+  .par-box{
+      display: block;
+        padding-left: 90px;
+        padding-right: 90px;
+  }
+  .about-par{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+      margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.06em;
+      width: 100%;
+  }
+  .torba-list{
+      display: flex;
+      flex-direction: column
+      
+      align-items: center;
+
+  }
+  .torba-item:not(:last-child){
+     margin-right: auto;
+  }
+  .second-hidden{
+      display: block;
+  }
+/* ----- material ---- */
+.lecture{
+    padding-top: 50px;
+}
+.lecture-list{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.lecture-item{
+    margin-bottom: 20px;
+}
+.lecture-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+}
+.lecture-link:hover,
+.lecture-link:focus{
+    color: var(--button-hover-color);
+    font-size: 25px;
+}
+.books-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.books-item{
+    margin-top: 15px;
+}
+.books-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+}
+.books-link:hover,
+.books-link:focus{
+    color: var(--button-hover-color);
+    font-size: 20px;
+}
+/* ----------example----------- */
+.lab-1{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid palevioletred;
+}
+.lab-2{
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid palevioletred;
+}
+.lab-3{
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid palevioletred;
+}
+.example-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exmple-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.example-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+}
+.example-link:focus,
+.example-link:hover{
+    color: var(--button-hover-color);
+    font-size: 20px;
+}
+/* -----answer------ */
+.answer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.answer-item{
+    margin-top: 15px;
+}
+.answer-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+}
+.answer-link:hover,
+.answer-link:focus{
+    color: var(--button-hover-color);
+    font-size: 20px;
+}
